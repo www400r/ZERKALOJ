@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Зеркало</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<main class="mirror-room">
+
+    <h1>ЗЕРКАЛО</h1>
+
+    <div class="rating" id="rating">
+        Оценка внешности: <strong>?</strong>/10
+    </div>
+
+    <div class="mirror">
+
+        <div class="mirror-glass">
+
+            <video
+                id="camera"
+                autoplay
+                playsinline>
+            </video>
+
+            <div class="shine"></div>
+
+        </div>
+
+    </div>
+
+    <div class="status" id="status">
+        <span></span>
+        
+    </div>
+
+    <button id="startCamera">
+        🪞 Открыть зеркало
+    </button>
+
+   
+
+    <canvas id="canvas" hidden></canvas>
+
+</main>
+
+<script src="my.js"></script>
+
+</body>
+
+</html>
